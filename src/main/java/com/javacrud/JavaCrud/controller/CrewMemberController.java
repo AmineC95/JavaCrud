@@ -1,6 +1,5 @@
 package com.javacrud.JavaCrud.controller;
 
-
 import com.javacrud.JavaCrud.CrewMember;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,7 +16,7 @@ public class CrewMemberController {
     public void createCrew(@RequestBody CrewMember crewMember){
             crewMemberList.add(crewMember);
         }
-    @GetMapping("/get")
+    @GetMapping("/")
     public List<CrewMember> getCrewMembers() {
         return this.crewMemberList.stream().filter(crewMember -> crewMember.getSalary()>10000).toList();
     }
