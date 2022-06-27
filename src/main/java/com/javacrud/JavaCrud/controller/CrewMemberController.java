@@ -25,7 +25,7 @@ public class CrewMemberController {
     public void updateCrew(@RequestBody CrewMember crewMember) {
         this.crewMemberList.stream()
         .filter(crewMember1 -> crewMember1.getName().equals(crewMember.getName()))
-        .findFirst().get().setName("Simon");
+        .findFirst().get().setName("Peter parker");
 
 
     }

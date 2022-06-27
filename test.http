@@ -1,32 +1,32 @@
-POST http://localhost:8080/post
+POST https://amine-javacrud-nouveau.herokuapp.com/post
 Content-Type: application/json
 
 {
-  "name": "alphaman",
+  "name": "Spiderman",
   "job": "crewmate",
   "salary": "100000515"
 }
 
 ###
 
-GET http://localhost:8080/get
+GET https://amine-javacrud-nouveau.herokuapp.com/
 
 ###
-PUT http://localhost:8080/put
+PUT https://amine-javacrud-nouveau.herokuapp.com/put
 Content-Type: application/json
 
 {
-  "name": "alphaman",
+  "name": "Spiderman",
   "job": "crewmate",
   "salary": "100000515"
 }
 
 ###
-DELETE http://localhost:8080/del
+DELETE https://amine-javacrud-nouveau.herokuapp.com/del
 Content-Type: application/json
 
 {
-  "name": "alphaman",
+  "name": "Spiderman",
   "job": "crewmate",
   "salary": "100000515"
 }
